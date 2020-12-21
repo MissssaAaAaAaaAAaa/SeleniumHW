@@ -39,7 +39,7 @@ namespace SeleniumTests
             Assert.AreEqual(UrlOfOpenedPage, driver.Url, "the required page wasn't opened");
         }
 
-        [TestCase("//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/ul/li[2]/div/button", "//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/ul/li[2]/div/nav")]
+        [TestCase("//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/ul/li[2]/div/button", "//*[@id=\"wrapper\"]/div[2]/div[1]/header/div/ul/li[2]/div/nav")]//Test for scenario 8
         public void SelectLanguageMenuTest(string XPathOfClikcedEl, string XPathOfPopUpdEl)
         {
             driver.Manage().Window.Maximize();

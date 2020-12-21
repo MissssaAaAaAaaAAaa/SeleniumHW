@@ -1,6 +1,6 @@
 # SeleniumHW
 
-Для запуска тестов необходимо создать C# .Net Framework проект в Visual Studio и установить следующие NuGet пакеты:
+Для запуска тестов необходимо создать C# Console App( .Net Framework) проект в Visual Studio и установить следующие NuGet пакеты:
 Selenium.WebDriver,
 NUnitTestAdapter,
 NUnit,
